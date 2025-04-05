@@ -2,7 +2,7 @@
 SCRIPTPATH=`dirname "$(readlink -f "$0")"`
 cd $SCRIPTPATH 
 
-if [ -d Itliz3 ]; then
+if [ -d Itzli3 ]; then
     echo Itzli3 present
 else
     cat itzli3-{a,b,c,d,e}* > Itzli3.tar.bz2
